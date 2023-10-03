@@ -1,0 +1,110 @@
+body{
+    background-color: #F2D8C9;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    height: 500px;
+    background-size: cover;
+    padding-top: 1px;
+    background-attachment: fixed;
+    background-image: url(imagens/bts_editada1.png)
+}
+
+    .div-cabecalho{
+        margin: 100px auto 0 auto;
+        width: 80%;
+        text-align: center;
+        color: #000000;
+    }
+
+    .div-cabecalho h1{
+        font-size: 50px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .div-cabecalho a{
+        background-color: #D9AA8F;
+        color: #000000;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .div-cabecalho a:hover{
+        background-color: #593636;
+        color: #F2D8C9;
+    }
+
+    .cabecalho nav ul{
+        margin: 25px 40px 0 0;
+        text-align: right;
+    }
+
+    .cabecalho nav ul li{
+        display: inline-block;
+        margin-left: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .cabecalho nav a{
+        color: #000000;
+        text-decoration: none;
+        background-color: #D9AA8F;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .cabecalho nav a:hover{
+        background-color: #593636;
+        color: #F2D8C9;
+    }
+
+    main{
+        width: 90%;
+        margin: auto;
+    }
+
+    main h2{
+       text-align: center; 
+       background-color: #F2ACBF;
+       margin-left: 2%;
+       margin-right: 2%;
+    }
+
+    main article{
+        background-color: #D9AA8F;
+        padding-top: 1px;
+        margin: 30px 30px -15px 30px;
+        padding-bottom: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+
+    .config-img{
+        height: 80px;
+        float: left;
+        padding-right: 20px;
+        padding-left: 5px;
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+
+    footer{
+        background-color: #593636;
+        color: #D9AA8F;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    section{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
